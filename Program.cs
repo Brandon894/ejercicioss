@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ejerciciono._1Impresiondenumerosdel0al100
+namespace ejerciciono._2imprimirdel100al0
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int n = 0;
-            while (n <= 100)
+            int n = 100;
+            while (n>=0)
             {
                 Console.WriteLine(n);
-                n = n + 1;
+                n = n - 1;
             }
             Console.ReadKey();
 
